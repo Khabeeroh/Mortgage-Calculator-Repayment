@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+      font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@font-face {
+    font-family:  "Plus Jakarta Sans";
+    src: url(./fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf), format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: hsl(202, 86%, 94%) !important;
+}
+
+.row{
+     background-color: hsl(0, 0%, 100%) !important;
+     width: 70% !important;
+}
+.calculator h6{
+    color: hsl(202, 55%, 16%);
+}
+.result{
+    background-color: hsl(202, 55%, 16%) !important;
+    color: hsl(200, 26%, 54%) !important;
+    border-bottom-left-radius: 3em !important;
+}
+.calculator{
+    color: hsl(200, 24%, 40%) !important;
+    background-color: hsl(0, 0%, 100%) !important;
+}
+.btn-link{
+    color: hsl(200, 26%, 54%) !important;
+}
+.btn-link:hover{
+   color: hsl(202, 55%, 16%) !important;
+}
+
+#calculateRepayment{
+  background-color: hsl(61, 70%, 52%) !important;
+  color: hsl(202, 55%, 16%) !important;
+}
+#calculateRepayment:hover{
+  opacity: 0.8 !important;
+}
+label{
+    color: hsl(200, 26%, 54%)!important;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.input-group-text{
+    background-color: hsl(202, 86%, 94%) !important;
+    color: hsl(200, 24%, 40%) !important;
+     font-size: 13px !important;
+     font-weight: 500 !important;
+}
+.form-check-label{
+    color:  hsl(202, 55%, 16%) !important;
+    font-weight: 500 !important;
+    margin-left: 10px !important;
+}
+.hover:hover{
+    cursor: pointer;
+    border: 1px solid  hsl(61, 70%, 52%) !important;
+}
+
+.form-check-input[type="radio"] {
+    accent-color: hsl(61, 70%, 52%) !important;
+}
+
+.form-check-input:checked {
+    background-color: hsl(61, 70%, 52%) !important;
+    border-color: hsl(202, 55%, 16%) !important;
+}
+.hover:focus-within{
+    border-color: hsl(61, 70%, 52%) !important;
+    box-shadow: 0 0 0 1px hsl(61, 70%, 52%) !important;
+    background-color: hsla(61, 70%, 52%, 0.1) !important;
+}
+.form-check-input:focus-visible {
+    outline: 1px solid hsl(61, 70%, 52%) !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 1px hsl(61, 70%, 52%) !important;
+}
+.input-group input{
+    cursor: pointer !important;
+}
+
+.input-group:hover{
+    border: 1px solid  hsl(202, 55%, 16%) !important;
+    border-radius: 5px;
+}
+.input-group:focus-within .input-group-text {
+    border-color: hsl(61, 70%, 52%) !important;
+   background-color: hsl(61, 70%, 52%) !important;
+   color: hsl(202, 55%, 16%) !important;
+}
+input:focus {
+    box-shadow: 0 0 0 1px hsl(61, 70%, 52%) !important;
+    border-color: hsl(61, 70%, 52%) !important;
+}
+.error{
+    color: hsl(4, 69%, 50%) !important;
+    font-size: 10px !important;
+}
+
+.card{
+    border-top: 4px solid hsl(61, 70%, 52%) !important;
+    background-color: hsl(200, 51%, 10%) !important;
+}
+
+.card p{
+    color: hsl(200, 26%, 54%) !important;
+    font-size: 13px;
+}
+.card h1{
+    color: hsl(61, 70%, 52%) !important;
+}
+.card h3{
+    color: hsl(0, 0%, 100%) !important;
+}
+hr{
+    color: hsl(200, 26%, 54%) !important;
+}
+.result-info{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .row{
+        width: 80% !important;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .row{
+        width: 100% !important;
+    }
+
+        .row.rounded-start-4,
+  .calculator.rounded-start-4 {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+
+  .result.rounded-end-4 {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+    
+}
+@media screen and (max-width: 576px) {
+    .row{
+        width: 100% !important;
+    }
+}
